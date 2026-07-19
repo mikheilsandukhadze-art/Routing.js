@@ -7,7 +7,7 @@ function ClientsProjectsPage() {
 
     return (
         <div>
-            <h1>the Clients Projects Page</h1>
+            <h1>the Projects of a Given Client</h1>
         </div>
     );
 }
