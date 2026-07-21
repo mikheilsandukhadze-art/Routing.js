@@ -5,9 +5,19 @@ function ClientsProjectsPage() {
 
     console.log(router.query);
 
+        function loadProjectHandler() {
+            // load data...
+            router.push({
+                pathname: '/clients/[id]/[clientprojectid]',
+                query: { id: 'max', clientprojectid: 'projecta' }
+            })
+        
+        }
+
     return (
         <div>
             <h1>the Projects of a Given Client</h1>
+            <button>Load Project A</button>
         </div>
     );
 }
